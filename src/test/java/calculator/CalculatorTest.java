@@ -34,6 +34,16 @@ public class CalculatorTest {
     }
 
     @Test
+    public void moduloTwoNumbersTest() {
+        Assert.assertEquals(1, calculator.moduloTwoNumbers(7, 3));
+    }
+
+    @Test
+    public void negativeModuloNumbersTest() {
+    Assert.assertEquals(-1, calculator.moduloTwoNumbers(-10, 3));
+    }
+
+    @Test
     public void isPositiveTest() {
 
 //      Test 1

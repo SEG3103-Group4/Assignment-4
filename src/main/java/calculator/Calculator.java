@@ -21,4 +21,6 @@ public class Calculator {
     public boolean isPositive(int a) {
         return a > 0;
     }
+
+    public int moduloTwoNumbers(int a, int b) {return a % b;}
 }
